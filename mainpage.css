@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#black {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.354);
+    background-image: url("background.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+
+#navbar {
+    height: 7em;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+}
+
+#logo {
+    margin-right: 2.5em;
+    font-size: 4em;
+    text-decoration: none;
+    color: orange;
+    position: relative;
+    top: 7%;
+    left: 2%;
+    font-family: "Petit Formal Script", cursive;
+    font-weight: 800;
+
+}
+
+.links {
+
+    margin-left: 4em;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    position: relative;
+    top: 2%;
+}
+
+.links:hover {
+    color: gray;
+    transition: 0.4s;
+
+}
+
+/*-----------------------buttons----------------------*/
+
+.bt1 {
+    border: none;
+    float: right;
+    margin-right: 1.3em;
+    position: relative;
+    top: 45%;
+    height: 30%;
+    width: 7%;
+    font-size: 1em;
+    border-radius: 2em;
+    font-weight: 500;
+    background-color: rgba(208, 146, 83, 1)
+}
+
+.bt1:hover {
+    background-color: rgba(0, 0, 0, 0.473);
+    color: white;
+    transition: 0.5s;
+}
+
+#bt {
+    float: none;
+    width: 15%;
+    height: 14%;
+    font-size: 70%;
+    color: white;
+}
+
+#bt:hover {
+    color: black;
+    transition: 0.4s;
+}
+
+.bt2 {
+    height: 15%;
+    width: 15%;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: rgb(189, 93, 3);
+    border: none;
+    font-weight: 900;
+}
+
+.bt2:hover {
+    background-color: rgba(0, 0, 0, 0.539);
+    color: white;
+    transition: 0.5s;
+}
+#log{
+    margin-right: 1.5%;
+}
+
+/*----------------------------------upper page writeup-------------*/
+#content1 {
+    color: rgb(247, 196, 103);
+    font-size: 120px;
+    font-weight: 900;
+}
+
+#content2 {
+    color: rgb(169, 117, 21);
+    font-size: 35px;
+    font-weight: 600;
+}
+
+/*------------------------------------lower content--------------*/
+#div2 {
+    height: 40vh;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#div3 {
+    height: 60vh;
+    margin-top: 0%;
+    margin-left: 0%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+#div4 {
+    height: 1500px;
+    background-color: rgb(252, 218, 168);
+}
+
+/*-----------------------------explore the coffee world---------*/
+h2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+    color: brown;
+}
+
+h2::after,
+h2::before {
+    content: "";
+    height: 6px;
+    background-color: brown;
+    display: block;
+}
+
+/*---------------------------coffee products---------------*/
+.coffee {
+    box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.646);
+    height: 520px;
+    width: 18%;
+
+    border-radius: 50px;
+    background-color: #b76d4b;
+}
+
+.coffee:hover {
+    background-color: #da8f6d;
+    transform: scale(1.2);
+    transition-timing-function: ease-in-out 0.5s;
+    transition: 0.5s;
+    
+  
+}
+
+.div5 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.space1 {
+    height: 120px;
+}
+
+#cappucino,
+#mocha,
+#latte,
+#java {
+    /*border: 2px solid black;*/
+    width: 80%;
+    height: 45%;
+    display: flex;
+    margin: 10%;
+    margin-left: 10%;
+    border-radius: 40px;
+}
+
+#cappucino {
+    background-image: url("cappucino.jpg");
+    background-size: cover;
+}
+
+#latte {
+    background-image: url("latte.jpg");
+    background-size: cover;
+}
+#mocha{
+    background-image: url("mocha.jpg");
+    background-size: cover;
+}
+#java{
+    background-image: url("javacoffee.jpg");
+    background-size: cover;
+}
+h3 {
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+}
+
+.bt3 {
+    width: 40%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: #6d402c;
+    color: white;
+}
+
+.bt3:hover {
+    background-color: rgba(0, 0, 0, 0.425);
+    color: black;
+}
+
+/*---------------------------brands--------------------*/
+.div6 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.brand {
+   
+    height: 250px;
+    width: 20%;
+}
+#starbucks{
+    background-image: url("280_starbucks-removebg-preview.png");
+    background-size: cover;
+}
+#nescafe{
+    background-image: url("images-removebg-preview.png");
+    background-size: cover;
+    width: 30%;
+}
+#tim{
+    background-image: url("tim.png");
+    background-size: cover;
+    height: 300px;
+    
+}
+#donuts{
+    background-image: url("dunkin-removebg-preview\ \(1\).png");
+    background-size: cover;
+    height: 350px;
+    width: 25%;
+}
+
+/*---------------------------footer--------------------------*/
+#foot {
+
+    height: 700px;
+    width: 100%;
+    background-color: #b76d4b;
+}
+
+#foottxt {
+    color: rgb(252, 218, 168);
+}
+
+#foottxt::after,
+#foottxt::before {
+    content: "";
+    height: 6px;
+    background-color: rgb(252, 218, 168);
+    display: block;
+}
+.space3{
+    height: 20vh;
+}
+#foot-element{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 600;
+}
+
+li{
+    list-style: none;
+    font-size:20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+}
+.follow{
+    display: flex;
+}
+.social{
+    font-size: 50px;
+}
+hr{
+    border-top: 4px solid  rgb(252, 218, 168);
+}
+#copy{
+    font-family: "Petit Formal Script", cursive;
+    font-size: 30px;
+}
+.div7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h4{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+/*----------------------------------------------*/
+.popup{
+    color: white;
+    width: 800px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.895);
+    border-radius: 12px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%)scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.587);
+    visibility: hidden;
+    transform: 0.4s ;
+    top: 0.4s0;
+}
+.open-x{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%)scale(1);
+    transition: 0.5s;
+}
+
+.popup h1{
+    font-size: 50px;
+    font-weight: 800;
+    margin: 30px 0 10px;
+}
+.popup p{
+    font-size: 30px;
+    font-weight: 200;
+}
+#Ok{
+    width: 50%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background-color: rgba(190, 190, 190, 0.525);
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    
+}
+#Ok:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
